@@ -8,6 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/* header/nav style */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -46,10 +47,12 @@ header nav ul li a {
     text-decoration: none;
 }
 
+/* all section style */
 p {
     font-size: 16px;
 }
 
+/* hero section style */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,6 +62,7 @@ p {
     background-position: center;
 }
 
+/* main section style */
 main {
     width: 75%;
     display: inline-block;
@@ -74,16 +78,6 @@ main {
     color: #ffffff;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
 .services img {
     max-height: 200px;
 }
@@ -93,6 +87,7 @@ main {
     font-size: 36px;
 }
 
+/* aside section style */
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -120,6 +115,8 @@ aside {
     max-width: 150px;
 }
 
+
+/* footer style */
 footer {
     padding: 30px;
     clear: both;
@@ -129,4 +126,15 @@ footer {
 
 footer h2 {
     font-size: 20px;
+}
+
+/* utitities */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
 }
